@@ -14,15 +14,15 @@
     <header>
         {%for rota in routes%}
         {%if rota == 'home'%}
-            <a class="nav-link" href="/">{{rota.title()}}</a>
+        <a  href="/">{{rota.title()}}</a>
         {%else%}
-            <a class="nav-link" href="{{rota}}">{{rota.title()}}</a>
+        <a href="{{rota}}">{{rota.title()}}</a>
         {%endif%}
 
-       {%endfor%}
+        {%endfor%}
     </header>
     <h1>Bem vindo a pagina de Projetos</h1>
-
+    <script src="/static/app.js"></script>
 </body>
 
 </html>
